@@ -8,3 +8,5 @@ Retos de Platzi
 - Dia 3: Reloj
 
 - Dia 4: Repite la palabra
+
+- Dia 5: ¿Necesitamos vocales?
