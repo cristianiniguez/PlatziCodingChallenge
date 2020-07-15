@@ -10,3 +10,7 @@ Retos de Platzi
 - Dia 4: Repite la palabra
 
 - Dia 5: ¿Necesitamos vocales?
+
+- Día 6: Calculadora
+
+- Día 7: Piedra, papel o tijera
