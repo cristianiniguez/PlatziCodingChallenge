@@ -16,3 +16,5 @@ Retos de Platzi
 - Día 7: Piedra, papel o tijera
 
 - Día 8: Volumen de un cilindro
+
+- Día 9: Número secreto
