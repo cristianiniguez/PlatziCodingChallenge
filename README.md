@@ -18,3 +18,5 @@ Retos de Platzi
 - Día 8: Volumen de un cilindro
 
 - Día 9: Número secreto
+
+- Día 10: Traductor de Pig Latin
