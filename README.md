@@ -14,3 +14,5 @@ Retos de Platzi
 - Día 6: Calculadora
 
 - Día 7: Piedra, papel o tijera
+
+- Día 8: Volumen de un cilindro
