@@ -12,3 +12,4 @@ Retos de Platzi
 * Día 9: Número secreto
 * Día 10: Traductor de Pig Latin
 * Día 11: Generador de contraseñas
+* Día 12: Próximo Cumpleaños
