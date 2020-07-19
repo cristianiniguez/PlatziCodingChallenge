@@ -13,3 +13,4 @@ Retos de Platzi
 * Día 10: Traductor de Pig Latin
 * Día 11: Generador de contraseñas
 * Día 12: Próximo Cumpleaños
+* Día 13: Calculadora de propina
