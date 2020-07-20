@@ -14,3 +14,4 @@ Retos de Platzi
 * Día 11: Generador de contraseñas
 * Día 12: Próximo Cumpleaños
 * Día 13: Calculadora de propina
+* Día 14: Números primos
