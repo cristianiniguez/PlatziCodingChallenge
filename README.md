@@ -16,3 +16,4 @@ Retos de Platzi
 * Día 13: Calculadora de propina
 * Día 14: Números primos
 * Día 15: Calculadora de Volumenes
+* Día 16: Calculadora v2
