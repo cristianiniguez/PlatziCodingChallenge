@@ -17,3 +17,4 @@ Retos de Platzi
 * Día 14: Números primos
 * Día 15: Calculadora de Volumenes
 * Día 16: Calculadora v2
+* Día 17: Ordenar una lista de números de mayor a menor
