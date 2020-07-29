@@ -19,3 +19,4 @@ Retos de Platzi
 * Día 16: Calculadora v2
 * Día 17: Ordenar una lista de números de mayor a menor
 * Día 18: Memory (parte 1)
+* Día 19: Memory (parte 2)
