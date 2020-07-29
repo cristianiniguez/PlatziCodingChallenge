@@ -20,3 +20,4 @@ Retos de Platzi
 * Día 17: Ordenar una lista de números de mayor a menor
 * Día 18: Memory (parte 1)
 * Día 19: Memory (parte 2)
+* Día 20: Memory (parte 3)
