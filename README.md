@@ -21,3 +21,4 @@ Retos de Platzi
 * Día 18: Memory (parte 1)
 * Día 19: Memory (parte 2)
 * Día 20: Memory (parte 3)
+* Día 21: Memory (parte 4)
