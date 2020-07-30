@@ -22,3 +22,4 @@ Retos de Platzi
 * Día 19: Memory (parte 2)
 * Día 20: Memory (parte 3)
 * Día 21: Memory (parte 4)
+* Día 22: ¿Cuánto vas a ahorrar?
