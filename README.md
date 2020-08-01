@@ -25,3 +25,4 @@ Retos de Platzi
 * Día 22: ¿Cuánto vas a ahorrar?
 * Día 23: ¿Puedo ahorrar otros periodos de tiempo?
 * Día 24: ¿Puedo ahorrar en otros bancos?
+* Día 24: Ordenando Ando
