@@ -23,3 +23,4 @@ Retos de Platzi
 * Día 20: Memory (parte 3)
 * Día 21: Memory (parte 4)
 * Día 22: ¿Cuánto vas a ahorrar?
+* Día 23: ¿Puedo ahorrar otros periodos de tiempo?
