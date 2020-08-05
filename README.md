@@ -27,3 +27,4 @@ Retos de Platzi
 * Día 24: ¿Puedo ahorrar en otros bancos?
 * Día 25: Ordenando Ando #1
 * Día 26: Ordenando Ando #2
+* Día 27: Ordenando Ando #3
