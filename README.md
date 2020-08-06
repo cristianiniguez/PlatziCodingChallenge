@@ -28,3 +28,5 @@ Retos de Platzi
 * Día 25: Ordenando Ando #1
 * Día 26: Ordenando Ando #2
 * Día 27: Ordenando Ando #3
+* Día 28: Código Morse
+* Día 27: Teléfono
