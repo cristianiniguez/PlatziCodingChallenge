@@ -31,3 +31,5 @@ Retos de Platzi
 * Día 28: Código Morse
 * Día 29: Teléfono
 * Día 30: Risk
+* Día 31: Teorema de Pitágoras
+* Día 32: Ecuaciones Cuadráticas
