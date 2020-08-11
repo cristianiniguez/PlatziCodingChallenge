@@ -34,3 +34,4 @@ Retos de Platzi
 * Día 31: Teorema de Pitágoras
 * Día 32: Ecuaciones Cuadráticas
 * Día 33: Fibonacci de 10 000
+* Día 34: Números Primos (Hallar el número primo 10000)
