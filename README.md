@@ -33,3 +33,4 @@ Retos de Platzi
 * Día 30: Risk
 * Día 31: Teorema de Pitágoras
 * Día 32: Ecuaciones Cuadráticas
+* Día 33: Fibonacci de 10 000
