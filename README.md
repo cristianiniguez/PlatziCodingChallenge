@@ -37,3 +37,4 @@ Retos de Platzi
 * Día 34: Números Primos (Hallar el número primo 10000)
 * Día 35: Números Aleatorios 2 (Tirar n dados de n caras)
 * Día 36: Números Aleatorios (Tirar n dados de 6 caras)
+* Día 37: ¿Qué pasaría si?
