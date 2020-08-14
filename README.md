@@ -39,3 +39,4 @@ Retos de Platzi
 * Día 36: Números Aleatorios (Tirar n dados de 6 caras)
 * Día 37: ¿Qué pasaría si?
 * Día 38: Juego de Dados
+* Día 39: Avanzando nuestro juego de dados
