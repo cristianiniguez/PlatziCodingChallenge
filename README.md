@@ -42,3 +42,4 @@ Retos de Platzi
 * Día 39: Avanzando nuestro juego de dados
 * Día 40: ¿Te conviene esta apuesta?
 * Día 41: Pick a Character!
+* Día 42: Code a Character!
