@@ -40,3 +40,4 @@ Retos de Platzi
 * Día 37: ¿Qué pasaría si?
 * Día 38: Juego de Dados
 * Día 39: Avanzando nuestro juego de dados
+* Día 39: ¿Te conviene esta apuesta?
