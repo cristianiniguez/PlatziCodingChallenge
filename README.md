@@ -43,3 +43,4 @@ Retos de Platzi
 * Día 40: ¿Te conviene esta apuesta?
 * Día 41: Pick a Character!
 * Día 42: Code a Character!
+* Día 43: Hora de aventura
