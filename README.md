@@ -44,3 +44,4 @@ Retos de Platzi
 * Día 41: Pick a Character!
 * Día 42: Code a Character!
 * Día 43: Hora de aventura
+* Día 44: Suma recursiva
