@@ -45,3 +45,4 @@ Retos de Platzi
 * Día 42: Code a Character!
 * Día 43: Hora de aventura
 * Día 44: Suma recursiva
+* Día 45: Generador de IPs
