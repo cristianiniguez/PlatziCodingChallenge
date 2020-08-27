@@ -47,3 +47,4 @@ Retos de Platzi
 * Día 44: Suma recursiva
 * Día 45: Generador de IPs
 * Día 46: Vacas y Toros
+* Día 47: Blackjack
