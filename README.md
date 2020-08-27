@@ -48,3 +48,4 @@ Retos de Platzi
 * Día 45: Generador de IPs
 * Día 46: Vacas y Toros
 * Día 47: Blackjack
+* Día 48: Frecuencia de una palabra
