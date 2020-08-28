@@ -49,3 +49,4 @@ Retos de Platzi
 * Día 46: Vacas y Toros
 * Día 47: Blackjack
 * Día 48: Frecuencia de una palabra
+* Día 49: Movimiento Aleatorio
