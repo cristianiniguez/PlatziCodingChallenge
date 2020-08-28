@@ -50,3 +50,4 @@ Retos de Platzi
 * Día 47: Blackjack
 * Día 48: Frecuencia de una palabra
 * Día 49: Movimiento Aleatorio
+* Día 50: Validador de Contraseñas
