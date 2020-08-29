@@ -1,4 +1,4 @@
-# Blackjack
+# Platzi Coding Challenge Dia 47 - Blackjack
 
 Este es un juego de cartas muy popular en el que consiste tomar cartas de una baraja hasta sumar 21 puntos o acercarse lo más posible. Así que crearás un programa donde jugarás contra la computadora tomando las siguientes consideraciones:
 

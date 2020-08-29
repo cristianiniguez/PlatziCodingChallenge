@@ -1,19 +1,4 @@
-# Avdol, el mago
+# Platzi Coding Challenge Dia 41 - Pick a Character!
 
-Tiene la capacidad de crear y manipular el fuego, además de detectar la presencia de enemigos en base a su calor corporal
-
-# Kakyoin, el sumo sacerdote
-
-Puede lanzar proyectiles de esmeraldas y alargar sus ultra sensibles brazos y usarlos como sensores
-
-# Polnareff, el carro
-
-Es muy ágil y puede moverse demasiado rápido, tiene buena armadura y un buen estoque
-
-# Joseph, el ermitaño
-
-Posee la habilidad de tener visiones del futuro o de lugares lejanos y registrar esas visiones en fotografías
-
-# Jotaro, la estrella
-
-Es muy fuerte y veloz, puede lanzar varios golpes de manera precisa y es capaz de detener el tiempo unos segundos
+Es hora de desarrollar nuestros personajes (aka) escribir más código pero antes de eso, imaginarlos,
+escribe 5 personajes diferentes que sigan el arquetipo del tarot (lo encuentras en el curso de diseño de escritura de personajes) y desarrolla qué ataques tendrá, si serán resistentes o si harán mucho daño pero serán débiles.

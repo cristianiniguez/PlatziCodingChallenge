@@ -1,5 +1,0 @@
-Memory (parte 1)!
-Crea un código que te muestre 4 caracteres entre los siguientes de forma aleatoria: "#$%()/&
-
-Memory (part2)!
-Lleva un registro del Orden en el que aparecieron los caracteres

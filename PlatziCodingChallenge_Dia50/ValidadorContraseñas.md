@@ -1,4 +1,4 @@
-# Validador de contraseñas
+# Platzi Coding Challenge Dia 50 - Validador de contraseñas
 
 En retos anteriores has creado un generador de contraseñas, ahora validarás su nivel de seguridad. Así que tu programa debe recibir un string con una contraseña considerando los siguientes parámetros:
 
