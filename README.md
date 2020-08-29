@@ -51,3 +51,5 @@ Retos de Platzi
 * Día 48: Frecuencia de una palabra
 * Día 49: Movimiento Aleatorio
 * Día 50: Validador de Contraseñas
+* Día 51: Fuerza Bruta en Contraseñas
+* Día 51: Funciones y números binarios
