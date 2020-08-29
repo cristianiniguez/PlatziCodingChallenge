@@ -1,0 +1,3 @@
+# PlatziCodingChallenge Dia 51 - Fuerza bruta en contraseñas
+
+¿Son realmente seguras las contraseñas que generaste? Puedes ponerlas a prueba mediante la fuerza bruta, la cual consiste en tratar de adivinarlas con intentos uno tras otro. Así que deberás escribir un programa que reciba una contraseña y comience a generar cadenas de texto en forma aleatoria hasta hacerla coincidir con tu contraseña. Muestra en la salida cuantos intentos y tiempo le tomó llegar a la misma.
