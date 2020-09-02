@@ -52,4 +52,5 @@ Retos de Platzi
 * Día 49: Movimiento Aleatorio
 * Día 50: Validador de Contraseñas
 * Día 51: Fuerza Bruta en Contraseñas
-* Día 51: Funciones y números binarios
+* Día 52: Funciones y números binarios
+* Día 53: Coerción, de 0 a contratado
