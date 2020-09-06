@@ -56,3 +56,4 @@ Retos de Platzi
 * Día 53: Coerción, de 0 a contratado
 * Día 54: Validador de URLs
 * Día 55: Validador de Mails
+* Día 56: Slides
