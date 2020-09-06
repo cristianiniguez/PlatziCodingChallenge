@@ -57,3 +57,4 @@ Retos de Platzi
 * Día 54: Validador de URLs
 * Día 55: Validador de Mails
 * Día 56: Slides
+* Día 57: Hackeando Strings
