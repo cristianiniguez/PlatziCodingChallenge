@@ -62,3 +62,4 @@ Retos de Platzi
 * Día 59: Escalando nuestro piedra papel o tijera
 * Día 60: Real Multiplayer
 * Día 61: Calcula la Media
+* Día 61: Calculador de combinaciones
