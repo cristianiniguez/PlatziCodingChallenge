@@ -60,4 +60,5 @@ Retos de Platzi
 * Día 57: Hackeando Strings
 * Día 58: Piedra, Papel y Tijeras
 * Día 59: Escalando nuestro piedra papel o tijera
-* Día 59: Real Multiplayer
+* Día 60: Real Multiplayer
+* Día 61: Calcula la Media
