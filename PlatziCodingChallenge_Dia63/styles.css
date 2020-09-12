@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  background-color: #85c1e9;
+  min-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+main {
+  display: flex;
+  justify-content: stretch;
+}
+main > div {
+  flex-basis: 0;
+  flex-grow: 1;
+  padding: 2em;
+}
+
+.message-box {
+  font-size: 2em;
+  padding: 1rem;
+  background-color: #f7dc6f;
+  border-radius: 10px;
+}
+.message-box:hover {
+  background-color: #f4d03f;
+}
+
+.container {
+  background-color: white;
+  padding: 1em;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.jenga-container {
+  width: 75%;
+  margin: 0 auto;
+  min-height: 50px;
+}
+
+.piso {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.cara-piezas {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.5em;
+  padding: 0.5em;
+}
+.cara-lado {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.5em;
+  padding: 0.5em;
+}
+.pieza,
+.lado {
+  background-color: #2471a3;
+  height: 4em;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pieza:hover {
+  background-color: #154360;
+}
+.pieza[data-lleno="true"] {
+  visibility: visible;
+}
+.pieza[data-lleno="false"] {
+  visibility: hidden;
+}
