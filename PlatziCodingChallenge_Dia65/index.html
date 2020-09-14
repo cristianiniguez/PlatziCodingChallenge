@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Platzi Coding Challenge - Dia 64</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <main>
+    <h1>Programar un elevador</h1>
+    <div class="container grid-container">
+      <div class="info-container">
+        <h2>Estado del elevador</h2>
+        <p>Piso: <span id="elevator-number">0</span></p>
+        <p>Dirección: <span id="elevator-state">Quieto</span></p>
+      </div>
+      <div class="floors-container">
+        <div class="floor">
+          <p>Piso 9</p>
+          <div class="floor__buttons">
+            <i class="fas fa-arrow-down" data-piso="9" data-direccion="-1"></i>
+          </div>
+          <div class="floor__elevator-number" id="floor-9">0</div>
+        </div>
+        <div class="floor">
+          <p>Piso 8</p>
+          <div class="floor__buttons">
+            <i class="fas fa-arrow-down" data-piso="8" data-direccion="-1"></i>
+            <i class="fas fa-arrow-up" data-piso="8" data-direccion="1"></i>
+          </div>
+          <div class="floor__elevator-number" id="floor-8">0</div>
+        </div>
+        <div class="floor">
+          <p>Piso 7</p>
+          <div class="floor__buttons">
+            <i class="fas fa-arrow-down" data-piso="7" data-direccion="-1"></i>
+            <i class="fas fa-arrow-up" data-piso="7" data-direccion="1"></i>
+          </div>
+          <div class="floor__elevator-number" id="floor-7">0</div>
+        </div>
+        <div class="floor">
+          <p>Piso 6</p>
+          <div class="floor__buttons">
+            <i class="fas fa-arrow-down" data-piso="6" data-direccion="-1"></i>
+            <i class="fas fa-arrow-up" data-piso="6" data-direccion="1"></i>
+          </div>
+          <div class="floor__elevator-number" id="floor-6">0</div>
+        </div>
+        <div class="floor">
+          <p>Piso 5</p>
+          <div class="floor__buttons">
+            <i class="fas fa-arrow-down" data-piso="5" data-direccion="-1"></i>
+            <i class="fas fa-arrow-up" data-piso="5" data-direccion="1"></i>
+          </div>
+          <div class="floor__elevator-number" id="floor-5">0</div>
+        </div>
+        <div class="floor">
+          <p>Piso 4</p>
+          <div class="floor__buttons">
+            <i class="fas fa-arrow-down" data-piso="4" data-direccion="-1"></i>
+            <i class="fas fa-arrow-up" data-piso="4" data-direccion="1"></i>
+          </div>
+          <div class="floor__elevator-number" id="floor-4">0</div>
+        </div>
+        <div class="floor">
+          <p>Piso 3</p>
+          <div class="floor__buttons">
+            <i class="fas fa-arrow-down" data-piso="3" data-direccion="-1"></i>
+            <i class="fas fa-arrow-up" data-piso="3" data-direccion="1"></i>
+          </div>
+          <div class="floor__elevator-number" id="floor-3">0</div>
+        </div>
+        <div class="floor">
+          <p>Piso 2</p>
+          <div class="floor__buttons">
+            <i class="fas fa-arrow-down" data-piso="2" data-direccion="-1"></i>
+            <i class="fas fa-arrow-up" data-piso="2" data-direccion="1"></i>
+          </div>
+          <div class="floor__elevator-number" id="floor-2">0</div>
+        </div>
+        <div class="floor">
+          <p>Piso 1</p>
+          <div class="floor__buttons">
+            <i class="fas fa-arrow-down" data-piso="1" data-direccion="-1"></i>
+            <i class="fas fa-arrow-up" data-piso="1" data-direccion="1"></i>
+          </div>
+          <div class="floor__elevator-number" id="floor-1">0</div>
+        </div>
+        <div class="floor">
+          <p>Piso 0</p>
+          <div class="floor__buttons">
+            <i class="fas fa-arrow-up" data-piso="0" data-direccion="1"></i>
+          </div>
+          <div class="floor__elevator-number" id="floor-0">0</div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script src="Elevador2.js"></script>
+</body>
+
+</html>
