@@ -1,66 +1,99 @@
 // Programar un elevador en JavaScript
 
+// Estados de las tareas
+const SIN_ATENDER = 0
+const ATENDIDA = 1
+
+// Direcciones del elevador
+const HACIA_ARRIBA = 1
+const HACIA_ABAJO = -1
+const QUIETO = 0
+
 class Elevador {
   constructor() {
-    this.posicion = 0
-    this.direccion = 0 // 1 -> Arriba, -1 -> Abajo, 0 -> Quieto
+    this.mover = this.mover.bind(this)
+    this.piso = 0
+    this.direccion = QUIETO
     this.tareas = new Array()
-    this.imprimirPosicion()
+    this.imprimirEstado()
   }
   nuevaTarea(pisoInicial, pisoFinal) {
-    this.tareas.push({ pisoInicial, pisoFinal })
-    this.mover()
-  }
-  mover() {
-    if (direccion !== 0) { // Me estaba moviendo?
-      switch (this.direccion) { // Hacia dónde?
-        case 1:
-          // Hay más tareas adelante?
-          if (this.tareas.some(tarea => tarea.pisoInicial > this.posicion || tarea.pisoFinal > this.posicion)) {
-            // Seguiré subiendo
-          } else {
-            // Hay tareas atrás?
-            if (this.tareas.some(tarea => tarea.pisoInicial < this.posicion || tarea.pisoFinal < this.posicion)) {
-              // Iré hacia abajo entonces
-            } else {
-              // Me quedaré quieto
-            }
-          }
-          break;
-        case -1:
-          // Hay más tareas atrás?
-          if (this.tareas.some(tarea => tarea.pisoInicial < this.posicion || tarea.pisoFinal < this.posicion)) {
-            // Seguiré bajando
-          } else {
-            // Hay más tareas adelante?
-            if (this.tareas.some(tarea => tarea.pisoInicial > this.posicion || tarea.pisoFinal > this.posicion)) {
-              // Iré hacia arriba entonces
-            } else {
-              // Me quedaré quieto
-            }
-          }
-          break;
-      }
-    } else {
-      if (this.tareas.length > 0) { // Hay tareas?
-        // Hacia dónde tengo que ir?
-      } else {
-        this.direccion = 0 // Seguiré quieto entonces
-        console.log('No tengo tareas')
-      }
+    this.tareas.push({ pisoInicial, pisoFinal, estado: SIN_ATENDER })
+    if (this.direccion === QUIETO) { // El elevador está quieto?
+      this.manejarPiso()
     }
   }
-  imprimirPosicion() {
+  establecerDireccion() {
+    if (this.hayTareasArriba()) {
+      this.direccion = HACIA_ARRIBA
+    } else if (this.hayTareasAbajo()) {
+      this.direccion = HACIA_ABAJO
+    } else {
+      this.direccion = QUIETO
+    }
+  }
+  mover() {
+    console.log(this)
+    switch (this.direccion) { // Moviendome un piso hacia arriba o hacia abajo
+      case HACIA_ARRIBA: this.piso++; break;
+      case HACIA_ABAJO: this.piso--; break;
+      default: 'Algo anda mal'
+    }
+    this.manejarPiso()
+  }
+  manejarPiso() {
+    let tareasFinalizadas = new Array()
+    let subidas = 0, bajadas = 0
+    for (let i = 0; i < this.tareas.length; i++) { // Para cada tarea
+      const tarea = this.tareas[i];
+      if (tarea.pisoInicial === this.piso && tarea.estado === SIN_ATENDER) { // Si hay gente subiendo
+        tarea.estado = ATENDIDA
+        subidas++
+      }
+      if (tarea.pisoFinal === this.piso && tarea.estado === ATENDIDA) { // Si hay gente bajando
+        tareasFinalizadas.push(i)
+        bajadas++
+      }
+    }
+    // Eliminando bajadas
+    console.log(tareasFinalizadas)
+    tareasFinalizadas.forEach(i => {
+      this.tareas.splice(i, 1)
+    })
+    this.establecerDireccion()
+    this.imprimirEstado()
+    console.log(this)
+    if (this.direccion !== QUIETO) {
+      // Calculando tiempo de espera
+      let delay = 2000 + (subidas > 0 ? 5000 : 0) + (bajadas > 0 ? 5000 : 0);
+      setTimeout(this.mover, delay)
+    }
+  }
+  imprimirEstado() {
     const $numerosPisos = document.querySelectorAll('.floor__elevator-number')
     $numerosPisos.forEach($np => {
-      $np.innerText = this.posicion
-      if ($np.id === `floor-${this.posicion}`) {
-        $np.style.color = 'lime'
-      } else {
-        $np.style.color = 'red'
-      }
+      $np.innerText = this.piso
+      $np.style.color = $np.id === `floor-${this.piso}` ? 'lime' : 'red'
     })
-    document.getElementById('elevator-number').innerText = this.posicion
+    document.getElementById('elevator-number').innerText = this.piso
+    let $estado = document.getElementById('elevator-state')
+    switch (this.direccion) {
+      case QUIETO: $estado.innerText = 'Quieto'; break;
+      case HACIA_ARRIBA: $estado.innerText = 'Hacia arriba'; break;
+      case HACIA_ABAJO: $estado.innerText = 'Hacia abajo'; break;
+    }
+  }
+  hayTareasArriba() {
+    return this.tareas.some(tarea => (
+      (tarea.pisoInicial >= this.piso && tarea.estado === SIN_ATENDER)
+      || (tarea.pisoFinal > this.piso && tarea.estado === ATENDIDA)
+    ))
+  }
+  hayTareasAbajo() {
+    return this.tareas.some(tarea => (
+      (tarea.pisoInicial <= this.piso && tarea.estado === SIN_ATENDER)
+      || (tarea.pisoFinal < this.piso && tarea.estado === ATENDIDA)
+    ))
   }
 }
 
