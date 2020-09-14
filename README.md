@@ -64,3 +64,4 @@ Retos de Platzi
 * Día 61: Calcula la Media
 * Día 62: Calculador de combinaciones
 * Día 63: Torre de Jenga Aleatoria
+* Día 64: Programando un Elevador
