@@ -65,6 +65,6 @@ Retos de Platzi
 - Día 61: Calcula la Media
 - Día 62: Calculador de combinaciones
 - Día 63: Torre de Jenga Aleatoria
-- Día 64: Programando un Elevador
-- Día 65: Limitar el peso y cantidad de personas
-- Día 66: Doble elevador doble eficiencia
+- [Día 64](https://cristianiniguez.github.io/PlatziCodingChallenge/PlatziCodingChallenge_Dia64/): Programando un Elevador
+- [Día 65](https://cristianiniguez.github.io/PlatziCodingChallenge/PlatziCodingChallenge_Dia65/): Limitar el peso y cantidad de personas
+- [Día 66](https://cristianiniguez.github.io/PlatziCodingChallenge/PlatziCodingChallenge_Dia66/): Doble elevador doble eficiencia
