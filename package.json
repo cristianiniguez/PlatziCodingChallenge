@@ -1,0 +1,20 @@
+{
+  "name": "platzi_coding_challenge",
+  "version": "1.0.0",
+  "description": "Retos de Platzi",
+  "main": "index.js",
+  "scripts": {
+    "dia67": "node ./Dia67/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cristianiniguez/PlatziCodingChallenge.git"
+  },
+  "keywords": [],
+  "author": "cristianiniguez <felizpc1@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cristianiniguez/PlatziCodingChallenge/issues"
+  },
+  "homepage": "https://github.com/cristianiniguez/PlatziCodingChallenge#readme"
+}
