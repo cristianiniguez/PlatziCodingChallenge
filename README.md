@@ -69,3 +69,4 @@ Retos de Platzi
 - [Día 65](https://cristianiniguez.github.io/PlatziCodingChallenge/Dia65/): Limitar el peso y cantidad de personas
 - [Día 66](https://cristianiniguez.github.io/PlatziCodingChallenge/Dia66/): Doble elevador doble eficiencia
 - Día 67: Servir o ser servido
+- Día 68: Servir más
