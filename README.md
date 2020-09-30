@@ -71,3 +71,4 @@ Retos de Platzi
 - Día 67: Servir o ser servido
 - Día 68: Servir más
 - Día 69: Servir seguro
+- Día 70: Ahora persistimos información
