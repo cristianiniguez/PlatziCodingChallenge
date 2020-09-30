@@ -70,3 +70,4 @@ Retos de Platzi
 - [Día 66](https://cristianiniguez.github.io/PlatziCodingChallenge/Dia66/): Doble elevador doble eficiencia
 - Día 67: Servir o ser servido
 - Día 68: Servir más
+- Día 69: Servir seguro

@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "dia67": "node ./Dia67/index.js",
-    "dia68": "node ./Dia68/index.js"
+    "dia68": "node ./Dia68/index.js",
+    "dia69": "node ./Dia69/index.js"
   },
   "repository": {
     "type": "git",
